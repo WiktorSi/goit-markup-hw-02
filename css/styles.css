@@ -1,0 +1,154 @@
+:root {
+    --brand-color: #212121;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mark{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+.link:hover,
+.link:focus {
+    color: blue;
+}
+
+.contact{
+    text-decoration: none;
+    color: #757575;
+}
+
+.contact:hover,
+.contact:focus{
+    color: blue;
+}
+
+
+.box_button {
+    border-style: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;  
+    width: 93px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.box_button:hover,
+.box_button:focus{
+    color:#FFFFFF;
+    background-color: #2196F3;
+}
+
+
+.line{
+    text-decoration: none;
+}
+.logo1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+.logo2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+.logo3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #FFFFFF;
+}
+
+.bottom-part{
+    background-color: #2F303A;
+}
+
+.divider1{
+    background-color: #2F303A;
+    color:#FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.type-text1{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.type-text2{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.type-text3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.type-text4 {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #757575;
+}
+
+.divider4 {
+    background-color: #F5F4FA;
+}
+
+.description{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+.order{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    background: #2196F3; 
+    cursor: pointer;  
+}
