@@ -30,7 +30,6 @@ body {
     color: blue;
 }
 
-
 .box_button {
     border-style: none;
     color: #212121;
@@ -50,7 +49,6 @@ body {
     color:#FFFFFF;
     background-color: #2196F3;
 }
-
 
 .line{
     text-decoration: none;
@@ -124,6 +122,23 @@ body {
     color: #757575;
 }
 
+.type-text5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.type-text6 {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #757575;
+}
+
 .divider4 {
     background-color: #F5F4FA;
 }
@@ -136,7 +151,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-
 
 .order{
     color: #FFFFFF;
