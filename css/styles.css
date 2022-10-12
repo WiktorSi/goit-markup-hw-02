@@ -7,7 +7,7 @@ body {
     color: #212121;
 }
 
-.list-marking{
+.tagging-list{
     list-style-type: none;
 }
 
@@ -31,7 +31,7 @@ body {
     color: blue;
 }
 
-.box_btn {
+.filter-btn {
     border-style: none;
     color: #212121;
     font-weight: 500;
@@ -45,8 +45,8 @@ body {
     cursor: pointer;
 }
 
-.box_btn:hover,
-.box_btn:focus{
+.filter-btn:hover,
+.filter-btn:focus{
     color:#FFFFFF;
     background-color: #2196F3;
 }
@@ -54,21 +54,21 @@ body {
 .logo-connection{
     text-decoration: none;
 }
-.logo1{
+.main-logo1{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
 }
-.logo2{
+.main-logo2{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
 }
-.logo3 {
+.bottom-logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -80,7 +80,7 @@ body {
     background-color: #2F303A;
 }
 
-.slogan{
+.motto{
     background-color: #2F303A;
     color:#FFFFFF;
     font-weight: 900;
@@ -91,7 +91,7 @@ body {
     text-transform: uppercase;
 }
 
-.list-text1{
+.article-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -99,14 +99,14 @@ body {
     text-transform: uppercase;
 }
 
-.list-text2{
+.article-text{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.photo-text3 {
+.personal-data {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -115,7 +115,7 @@ body {
     text-align: center;
 }
 
-.photo-text4 {
+.job-data {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -123,7 +123,7 @@ body {
     color: #757575;
 }
 
-.photo-text5 {
+.filter-thread-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -132,7 +132,7 @@ body {
     text-align: center;
 }
 
-.photo-text6 {
+.filter-group-name {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
@@ -153,7 +153,7 @@ body {
     text-transform: uppercase;
 }
 
-.btn-order{
+.order-btn{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
